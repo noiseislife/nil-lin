@@ -7,8 +7,42 @@
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1749323793669,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1749323826066
+                }
+            ],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Text",
+            "name": "Text",
+            "x": 0.2979373567608862,
+            "y": 0.46808510638297873,
+            "uniqueID": 1749323826066,
+            "ioValues": [],
+            "description": "Creates a new text sketch.",
+            "fontFamily": "AGUAFINA",
+            "selectedFontIndex": 5
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1749323826066,
+            "ap2ID": 1749323793669
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
